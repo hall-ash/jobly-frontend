@@ -1,0 +1,45 @@
+.NavBar {
+ box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  
+}
+
+
+nav a:not(.navbar-brand):hover {
+  color: rgb(15, 143, 234);
+}
+
+nav a:not(.navbar-brand).active {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(15, 143, 234);
+}
+
+.logout-btn {
+  font-size: 1rem;
+  padding: 0;
+  color: rgb(117, 117, 117);
+}
+
+.logout-btn:hover {
+  color: orangered;
+}

@@ -1,0 +1,22 @@
+.JobCard {
+  text-align: left;
+  box-shadow: 1px 1px 1px rgba(142, 142, 142, 0.6);
+}
+
+.JobCard .job-title {
+  font-weight: bold;
+}
+
+.JobCard .app-btn {
+  font-weight: bold;
+  float: right;
+  text-transform: uppercase;
+  background-color: rgb(15, 143, 234);
+}
+
+.JobCard .app-btn:hover {
+  box-shadow: 2px 2px 5px 2px rgba(142, 142, 142, 0.6);
+  background-color: rgba(236, 236, 236, 0.132);
+  color: rgb(15, 143, 234);
+  border-color:rgb(15, 143, 234);
+}
